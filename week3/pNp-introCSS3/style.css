@@ -1,0 +1,28 @@
+h1 {
+    color:#285E22;
+    
+}
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p {
+    line-height: 25px;
+    font-size: 20px
+}
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#like {
+    text-transform: uppercase;
+}
+img {
+    float: left;
+    padding: 10px;
+}
+.paragraph-three {
+    padding-top: 30px;
+}
