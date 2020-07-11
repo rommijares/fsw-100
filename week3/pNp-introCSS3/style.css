@@ -1,15 +1,17 @@
 h1 {
-    color:#285E22;
+    color: darkgreen;
     
 }
 h1,h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
-p {
-    line-height: 25px;
-    font-size: 20px
+.CIA-story > p {
+    line-height:25px;
+    font-size: 20px;
+    font-size: larger;
 }
+
 a {
     text-decoration:none;
 }
@@ -25,4 +27,9 @@ img {
 }
 .paragraph-three {
     padding-top: 30px;
+}
+.list {
+    line-height:25px;
+    font-size: 20px;
+    font-size: larger;
 }
