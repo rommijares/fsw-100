@@ -1,0 +1,57 @@
+body {
+    font-family: noto sans tc;
+}
+
+nav {
+    position: fixed;
+   color: maroon;
+   font-weight: bold;
+   font-size: x-large;
+}
+ 
+article {
+     border: 20px solid darkgray;
+     padding: 20px;
+     overflow: hidden;
+     background-color: lightgrey;
+     margin-left: 15%;
+     margin-right: 15%;
+}
+
+h1 {
+     display: inline;
+}
+
+p {
+    display: block;
+}
+
+img {
+    float: left;
+    padding-right:20px ;
+}
+
+#home {
+    position: relative;
+    margin-left: 460px;
+}
+
+#menu {
+    position: relative;
+    left: 200px;
+}
+
+#about {
+    position: relative;
+    left: 400px;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:lightblue;
+    font-weight: bold;
+}
+
