@@ -1,0 +1,114 @@
+
+body {
+    background-image: url(https://tucsonfoodie.com/wp-content/uploads/2017/01/TF-Yoshimatsu-sushi-burrito-0817.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    position: fixed;
+    list-style-type: none;
+    background-color: rgb(5, 5, 5); opacity:0.5;
+    width: 17%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+li a {
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 55px;
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+li img {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: 'Ravi Prakash', cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    color:orangered;
+}
+
+main {
+    border: 5px solid orangered;
+    background-color: white;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+.welcome {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+h2 {
+    color: orangered;
+    text-align: center;
+    font-size: 40px
+}
+
+p {
+    font-size: larger;
+}
+
+figure {
+    padding-left: 35px;
+}
+
+.our-goal {
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 1.5;
+}
+
+.hours {
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+#sushirito-hands {
+    float: left;
+    padding-left: 40px;
+    margin-right: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: orangered;
+}
+
+table {
+    border-collapse: collapse;
+    width: 55%;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #c3f0f1;
+}
+
+footer {
+    text-align: center;
+    color: peru;
+    padding-top: 15px;
+}
+
+
+
