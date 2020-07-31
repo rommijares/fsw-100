@@ -1,0 +1,76 @@
+#boxes > div {
+    border: 1px solid black ;
+    height: 150px;
+    width: 150px;
+    margin: 20px 30px;
+}
+
+#box1 {
+    background-color: red;
+    transition: border 2s linear 1s, width 2s linear 1s, background-color 2s linear 1s;
+}
+#box1:hover {
+    background-color: pink;
+    width: 300px;
+    border: 5px dotted black;
+    position: fixed;
+}
+
+#box2 {
+    background-color: blue;
+    transition: width 2s ease-in-out 1s, height 2s ease-in-out 1s, background-color 2s ease-in-out 1s, box-shadow 2s ease-in-out 1s;
+}
+#box2:hover {
+    background-color: darkorange; 
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 20px black;
+}
+
+#box3 {
+    background-color: brown;
+    transition: border-radius 1s ease-in 0.6s, box-shadow 2s ease-in 1s, background-color 1s ease-in 0.6s;
+}
+#box3:hover {
+    border-radius: 100px;
+    box-shadow: 5px 10px black;
+    background-color: olive;
+}
+
+#box4 {
+    background-color: yellowgreen;
+    transition: margin-left 2s ease-out 1s, border 2s ease-out 1s, background-color 2s ease-out 2s; 
+}
+#box4:hover {
+    margin-left: 80px;
+    border: 10px dashed rgb(168, 5, 5);
+    background-color: lightcoral;
+}
+
+#box5 {
+    background-color: darkgreen;
+    transition: width 1s linear .6s, border-top-right-radius 1s ease-in 1s, border-bottom-left-radius 1s ease-out 1s, background-color 2s ;
+}
+#box5:hover {
+    width: 500px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(88, 5, 5); 
+}
+
+#box6 {
+    background-color: darkmagenta;
+    transition: width 2s, height 2s, border-width 3s, transform 2s;
+}
+#box6:hover {
+    background-image: url(https://i.pinimg.com/736x/b9/f3/15/b9f31565dd0c1997e22aa6186be88912.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-width: thick;
+    transform: rotate(360deg);
+}
+
+audio {
+    margin-left: 40%;
+}
