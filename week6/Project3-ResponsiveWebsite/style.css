@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    line-height: 1.5;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+header {
+    color: rgb(248, 177, 189);
+    text-align: center;
+    grid-column: 1/6;
+    background-image: url(https://media.istockphoto.com/photos/teal-mint-green-blue-background-grunge-texture-paper-cotton-concrete-picture-id1180240849?k=6&m=1180240849&s=612x612&w=0&h=7Fi1rHX3hMCmFRdaZ7xtqYJdiqawpkCTHw8JwT_UWms=);
+    background-size: cover;
+    grid-row: 1/2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 45px;
+    
+}
+
+.navbar {
+    grid-column: 1/6;
+    grid-row: 2/3;
+    background-image: url(https://wallpaperaccess.com/full/1901716.png); 
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 107, 107);
+    font-size: 20px;
+    transition: color 1s ease 1s, font-weight 1s ease 1s;
+}
+
+a:hover {
+    color: cornsilk;
+    font-weight: bold;
+}
+
+.info {
+    grid-column: 1/6;
+    grid-row: 3/4;
+    background-image: url(https://thumbs.dreamstime.com/t/modern-bright-cornflower-blue-paint-textured-abstract-background-design-computer-generated-shade-featuring-pattern-112915619.jpg);
+    background-size: cover;
+    display: inline;
+    padding: 5% 10%;
+}
+
+.info > p {
+    padding: 10px;
+}
+
+.image {
+    display: none;
+}
+
+h2 {
+    color: pink;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+img {
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+.cupcake {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    text-align: center;
+}
+
+.hours {
+    background-image: url(https://wallsheaven.com/photos/B679443887/220/abstract-seamless-pattern-with-grid-checkerred.-simple-light-green-background.vector-illustration..webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/6;
+    grid-row: 4/5;
+    text-align: center;
+    padding: 20px;
+}
+
+h3 {
+    padding: 15px;
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+.footer {
+    grid-column: 1/6;
+    grid-row: 5/6;
+    background-color: chocolate;
+}
+
+.footer > p {
+    text-align: center;
+}
+
+/*tablet*/
+@media only screen and (min-width: 740px) {
+    
+    .navbar {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
+    .info {
+        grid-column: 2/6;
+        grid-row: 2/4;
+    }
+
+    .image {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+/*laptop*/
+@media only screen and (min-width:1020px) {
+    .info {
+        grid-column: 2/5;
+    }
+
+    .hours {
+        grid-column: 5/6;
+        grid-row: 2/4;
+        justify-content: space-evenly;
+    }
+
+    a{
+        transition: background-color 1s ease 1s, border 1s ease 1s, border-radius 1s ease 1s, padding 1s ease 1s, color
+        1s ease 1s;
+    }
+
+    a:hover {
+        border: 1px solid lightslategray;
+        padding: 20px;
+        background-color: lightslategrey; opacity: 0.6;
+        border-radius: 10%;
+    }
+}
+
