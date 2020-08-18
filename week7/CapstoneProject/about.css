@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    grid-column: 1/7;
+    grid-row: 1/2;
+    text-align: center;
+    background-color: black; 
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav {
+    grid-column: 1/7;
+    grid-row: 2/3;
+    position: -webkit-sticky;
+    top: 0;
+    position: sticky;
+    width: 100%;
+}
+
+ul {
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black; opacity: 0.9;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 300ms ease 500ms, border 300ms ease 500ms, padding 300ms ease 500ms;
+}
+
+li a:hover {
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#about {
+    grid-column: 1/7;
+    grid-row: 3/4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about #poolbar {
+    width: 90%;
+    object-fit: cover;
+}
+
+#about #information {
+    margin: 0 20px;
+}
+
+h2 {
+    color: blue;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+#information p {
+    padding-bottom: 10px;
+}
+
+#about #sabangbeach {
+    border-radius: 50%;
+    padding: 5%;
+}
+
+footer {
+    grid-column: 1/7;
+    grid-row: 4/5;
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding: 5px;
+}
+
+/* tablet */
+@media only screen and (min-width: 760px) {
+    #about #information {
+        border: 2px solid aqua;
+        margin: 20px 30%;
+        padding: 0 3% 3% 3%;
+    }
+}

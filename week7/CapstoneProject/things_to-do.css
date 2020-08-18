@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+    background-color: black; 
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    position: -webkit-sticky;
+    top: 0;
+    position: sticky;
+    width: 100%;
+}
+
+ul {
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black; opacity: 0.9;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 300ms ease 500ms, border 300ms ease 500ms, padding 300ms ease 500ms;
+}
+
+li a:hover {
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+h3 {
+    color: blue;
+    padding-bottom: 10px;
+}
+
+.intro {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro #poolbar {
+    width: 90%;
+    object-fit: cover;
+}
+
+.river {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    text-align: center;
+    border: 2px solid aqua;
+    margin: 3%;
+    padding: 3%;
+}
+
+.river #cavepic {
+    width: 100%;
+    object-fit: cover;
+}
+
+.diving {
+    grid-column: 1/4;
+    grid-row: 5/6;
+    text-align: center;
+    border: 2px solid aqua;
+    margin: 3%;
+    padding: 3%;
+}
+
+.diving #reefpic {
+    width: 100%;
+    object-fit: cover;
+}
+
+.nightlife {
+    grid-column: 1/4;
+    grid-row: 6/7;
+    text-align: center;
+    border: 2px solid aqua;
+    margin: 3%;
+    padding: 3%;
+}
+.nightlife #nightlife-pic {
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    grid-column: 1/4;
+    grid-row: 7/8;
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding: 5px;
+}
+
+/* laptop */
+@media only screen and (min-width: 1020px) {
+
+    .river {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .diving {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .nightlife {
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+}
